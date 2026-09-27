@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Design</title>
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ตั้งค่า Font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ["Roboto Mono"],
+                    },
+                },
+            },
+        };
+    </script>
+
+</head>
+
+<body class="bg-[#91FFB2] font-mono text-[#222] min-h-screen">
+    <!-- HERO -->
+    <div class="w-[1100px] mx-auto pt-[60px] flex justify-between">
+        <!-- SECTION 1 -->
+        <div class="w-[550px]">
+            <!-- Title -->
+            <h1 class="text-[2.7rem] font-bold leading-[1.4] mb-[25px]">
+                My Web Design by <br>
+                HTML CSS.
+            </h1>
+
+            <!-- Detail -->
+            <p class="w-[430px] text-base leading-[1.5]">
+                Lorem ipsum dolor sit amet, <br>
+                consectetur adipiscing elit. <br>
+                Cursus imperdiet sed id elementum. <br>
+                Quam vel aliquam sit vulputate.
+            </p>
+
+            <!-- Button -->
+            <button class="bg-[#333333] text-white rounded-full py-[13px] px-[35px] mt-[10px] hover:bg-black">Follow Me</button>
+
+            <!-- SMALL PICTURE -->
+            <div class="flex gap-[30px] mt-[80px]">
+                <!-- Page A -->
+                <a href="./page_a.html">
+                    <img src="./images/pic1.png" alt="pic1" class="w-[240px] h-[135px] object-cover">
+                </a>
+                <!-- Page B -->
+                <a href="./page_b.html">
+                    <img src="./images/pic2.png" alt="pic2" class="w-[240px] h-[135px] object-cover">
+                </a>
+            </div>
+        </div>
+
+        <!-- SECTION 2 -->
+        <div class="w-[220px]">
+            <a href="./page_c.html">
+                <img src="./images/pic3.png" alt="pic3" class="w-[200px] h-[540px] object-cover">
+            </a>
+        </div>
+
+        <!-- SECTION 3 -->
+        <div class="w-[130px]">
+            <a href="./page_d.html">
+                <img src="./images/pic4.png" alt="pic4" class="w-[120px] h-[540px] object-cover">
+            </a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="text-center text-xs mt-[30px] pb-[20px]">
+        <p class="my-[3px]">(รูปและเนื้อหาทั้งหมดใช้เพื่อการศึกษาเท่านั้น)</p>
+        <p class="my-[3px]">Created by Tanapat Srirabay</p>
+        <p class="my-[3px]">Copyright © 2026 WoW WoW WoW</p>
+    </div>
+</body>
+
+</html>
